@@ -1,0 +1,27 @@
+{
+  "name": "tplink-smartplug-api",
+  "version": "0.0.1",
+  "description": "An API interface to a TP-Link Smartplug",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "author": "Bob Nisco <bobnisco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bufferpack": "0.0.6",
+    "express": "^4.14.0",
+    "yargs": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-plugin-node": "^5.2.1",
+    "nodemon": "^1.13.3"
+  }
+}
