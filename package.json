@@ -17,7 +17,7 @@
     "body-parser": "^1.15.2",
     "bufferpack": "0.0.6",
     "express": "^4.14.0",
-    "yargs": "^6.3.0"
+    "yargs": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
