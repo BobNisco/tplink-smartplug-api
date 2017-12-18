@@ -28,6 +28,7 @@ app.get('/', (req, res) => {
   res.send('Hack the planet');
 });
 
+// TODO: Consider reworking this API since it's all in 1 at the moment
 app.post('/', async (req, res) => {
   const { command, json, ip, all } = req.body;
 
